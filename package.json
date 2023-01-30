@@ -3,7 +3,7 @@
   "displayName": "Electric Indigo",
   "description": "It's like Shades of Purple by Ahmad Awais, but on steroids.",
   "version": "1.0.0",
-  "Publisher": "felixdivall",
+  "publisher": "felixdivall",
   "engines": {
     "vscode": "^1.74.0"
   },
