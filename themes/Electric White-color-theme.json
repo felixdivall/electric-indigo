@@ -1,9 +1,9 @@
 {
 	// Theme Color reference.
 	// https://code.visualstudio.com/docs/getstarted/theme-color-reference
-	"name": "Electric Indigo",
+	"name": "Electric White",
 		"$schema": "vscode://schemas/color-theme",
-		"type": "dark",
+		"type": "Light",
 		"semanticHighlighting": true,
 
 		"semanticTokenColors": {
