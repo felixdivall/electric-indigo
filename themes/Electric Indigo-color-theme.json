@@ -171,7 +171,7 @@
 			"diffEditor.removedTextBorder": "#ff000d81",
 
 			// Brackets.
-			"editorBracketHighlight.foreground1": "#E1EFFF", // #ffd700 / #E1EFFF									// Added
+			"editorBracketHighlight.foreground1": "#ffab31", // #ffd700 / #E1EFFF									// Added
 			"editorBracketHighlight.foreground2": "#ffd700", // #da70d6 / #6edbf7 / #ff8b9b / #ff8753 / #ffd700	// Added
 			"editorBracketHighlight.foreground3": "#6edbf7", // #ffd700 / #E1EFFF / #ffaf53 / #6edbf7				// Added
 			// "editorBracketHighlight.foreground4": "#6ddb80", // #00ccff 											 // Added

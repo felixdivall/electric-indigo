@@ -65,7 +65,7 @@
 		// theme, but is slightly easier on the eyes. Some colors has been changed completely
 		// and some has only had their shade tweaked.
 		"colors": {
-			// Activity Bar.		// OK
+			// Activity Bar.
 			// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
 			"activityBar.background": "#15152a",
 			"activityBar.border": "#131327",
@@ -77,12 +77,12 @@
 			"activityBar.activeBorder": "#6943ff62",
 			"activityBar.activeBackground": "#131327",
 
-			// Badge.			// OK
+			// Badge.
 			// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_badge
 			"badge.background": "#ffd700", // Shades of Purple: #FAD000
 			"badge.foreground": "#15152b",
 
-			// Button.				// OK
+			// Button.
 			// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_button-control
 			"button.background": "#ffd700dd", // Shades of Purple: #FAD000dd
 			"button.foreground": "#131327",
@@ -93,12 +93,12 @@
 			"checkbox.background": "#131327",
 			"checkbox.foreground": "#ffd700",
 
-			// Contrast.			// OK
+			// Contrast.
 			// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_contrast-colors
 			"contrastActiveBorder": "#ffffff00",
 			"contrastBorder": "#ffffff00",
 
-			// Debug Icons.				// OK
+			// Debug Icons.
 			"debugIcon.continueForeground": "#ffd700", // Shades of Purple: #FAD000
 			"debugIcon.disconnectForeground": "#ffd700", // Shades of Purple: #FAD000
 			"debugIcon.pauseForeground": "#ffd700", // Shades of Purple: #FAD000
@@ -110,26 +110,26 @@
 			"debugIcon.stepOverForeground": "#ffd700", // Shades of Purple: #FAD000
 			"debugIcon.stopForeground": "#ec3a37f5",
 
-			// Base Colors.				// OK
+			// Base Colors.
 			// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_base-colors
 			// Foreground color for description text providing additional information, for example for a label.
 			"descriptionForeground": "#a599e9",
 			"selection.background": "#5706a2",
 
-			// Dropdown.				// OK
+			// Dropdown.
 			// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_dropdown-control
 			"dropdown.background": "#15152b",
 			"dropdown.border": "#15152b",
 			"dropdown.foreground": "#ffffff",
 
-			// ——— Editor ———				// OK
+			// ——— Editor ———
 			// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-colors
 			"editor.background": "#191830", // Editor background color.
 			"editor.foreground": "#FFFFFF", // Editor default foreground color.
 			"editorLineNumber.foreground": "#7870ab", // Color of editor line numbers.
 			"editorCursor.foreground": "#FFD700", //  Color of the editor cursor.	// Shades of Purple: #FAD000
 
-			// The selection color battle starts here.			// OK
+			// The selection color battle starts here.
 			"editor.selectionBackground": "#5706a288", // Color of the editor selection.
 			"editor.inactiveSelectionBackground": "#7580B8C0", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
 			"editor.selectionHighlightBackground": "#7E46DF46", // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
@@ -157,19 +157,19 @@
 			"editorOverviewRuler.currentContentForeground": "#ee3a4355",
 			"editorOverviewRuler.incomingContentForeground": "#3ad90055",
 
-			// Errors and warnings:			// OK
+			// Errors and warnings:
 			// "editorError.border": "#EC3A37F5",
 			"editorError.foreground": "#ec3a37f5",
 			"editorWarning.border": "#ffffff00",
 			"editorWarning.foreground": "#ffd700", // Shades of Purple: #FAD000
 
-			// Gutter: The gutter contains the glyph margins and the line numbers:		// OK
+			// Gutter: The gutter contains the glyph margins and the line numbers:
 			"editorGutter.background": "#15152a",
 			"editorGutter.addedBackground": "#35ad68",
 			"editorGutter.deletedBackground": "#ec3a37f5",
 			"editorGutter.modifiedBackground": "#ad70fc46",
 
-			// Diff Editor.				// OK
+			// Diff Editor.
 			// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_diff-editor-colors
 			"diffEditor.insertedTextBackground": "#00ff000e",
 			"diffEditor.insertedTextBorder": "#00ff009a",
@@ -177,7 +177,7 @@
 			"diffEditor.removedTextBorder": "#ff000d81",
 
 			// Brackets.
-			"editorBracketHighlight.foreground1": "#E1EFFF", // #ffd700 / #E1EFFF									// Added
+			"editorBracketHighlight.foreground1": "#ffab31", // #ffd700 / #E1EFFF / #ffab31						// Added
 			"editorBracketHighlight.foreground2": "#ffd700", // #da70d6 / #6edbf7 / #ff8b9b / #ff8753 / #ffd700	// Added
 			"editorBracketHighlight.foreground3": "#6edbf7", // #ffd700 / #E1EFFF / #ffaf53 / #6edbf7				// Added
 			// "editorBracketHighlight.foreground4": "#6ddb80", // #00ccff 											 // Added
@@ -193,17 +193,17 @@
 			// // "editorBracketHighlight.foreground6": "#E1EFFF", // #9d9d9d 										 // Added
 			// "editorBracketHighlight.unexpectedBracket.foreground": "#db6165", 									 // Added
 			
-			// Editor Groups & Tabs.				// OK
+			// Editor Groups & Tabs.
 			// "editorGroup.background": "#EC3A37F5", // Deprecated
 			"editorGroup.border": "#131327",
 			"editorGroup.dropBackground": "#131327D0",
 
-			// The editorGroupHeader.		// OK
+			// The editorGroupHeader.
 			"editorGroupHeader.noTabsBackground": "#191830",
-			"editorGroupHeader.tabsBackground": "#191830",
+			"editorGroupHeader.tabsBackground": "#1a1a35",
 			"editorGroupHeader.tabsBorder": "#1F1F41",
 			
-			// The tabs				// OK
+			// The tabs
 			"tab.activeBackground": "#131327",
 			"tab.activeForeground": "#FFFFFF",
 			"tab.border": "#15152b",
