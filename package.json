@@ -2,7 +2,7 @@
   "name": "electric-indigo",
   "displayName": "Electric Indigo",
   "description": "Like 'Shades of Purple' on steroids.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "felixdivall",
   "engines": {
     "vscode": "^1.74.0"
