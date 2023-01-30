@@ -2,7 +2,8 @@
 
 ## This theme is a tweaked version of Shades of Purple.
 It offers great aesthetics while not sacrificing any functionality.
+Colors are soft while the things you want to see still pop.
 
-Just like this readme, it's a work in progress to offer great color scheme for several languages.
+This is a Work in Progress.
 
 **Happy coding!**
