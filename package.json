@@ -7,6 +7,20 @@
   "engines": {
     "vscode": "^1.74.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felixdivall/electric-indigo"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "purple theme",
+    "felix divall",
+    "shades of purple",
+    "purple sun",
+    "dreamscape",
+    "suitespot"
+  ],
   "categories": [
     "Themes"
   ],
