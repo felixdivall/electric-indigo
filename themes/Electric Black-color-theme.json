@@ -426,8 +426,8 @@
 			"textBlockQuote.background": "#15152b",
 			"textBlockQuote.border": "#6943FF",
 			"textCodeBlock.background": "#15152b",
-			"textLink.activeForeground": "#5706a2",
-			"textLink.foreground": "#5706a2",
+			"textLink.activeForeground": "#ffd700",
+			"textLink.foreground": "#ffd700",
 			"textPreformat.foreground": "#ffd700", // Shades of Purple: #FAD000
 			"textSeparator.foreground": "#15152b",
 
