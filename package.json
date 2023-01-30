@@ -1,0 +1,22 @@
+{
+  "name": "electric-indigo",
+  "displayName": "Electric Indigo",
+  "description": "It's like Shades of Purple by Ahmad Awais, but on steroids.",
+  "version": "1.0.0",
+  "Publisher": "Felix Divall",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Electric Indigo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Electric Indigo-color-theme.json"
+      }
+    ]
+  }
+}
