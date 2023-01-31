@@ -28,6 +28,10 @@
   "categories": [
     "Themes"
   ],
+  "galleryBanner": {
+    "color": "#191830",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
