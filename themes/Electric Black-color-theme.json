@@ -33,7 +33,9 @@
 				"foreground": "#fe9b70"
 			},
 
-
+			"variable": {
+				"foreground": "#AAF5FF"
+			},
 			// "variable.constant": {
 			// 	"foreground": "#8366d1"
 			// },
@@ -1338,7 +1340,8 @@
 					"variable.other.constant"
 				],
 				"settings": {
-					"foreground": "#AAF5FF" // Shades of Purple: #9EFFFF
+					"foreground": "#d3ffa3" // Shades of Purple: #9EFFFF
+					// #AAF5FF - use this if semantic highlighting is disabled
 				}
 			},
 			{

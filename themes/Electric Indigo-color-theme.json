@@ -34,8 +34,11 @@
 			},
 
 
+			"variable": {
+				"foreground": "#AAF5FF"
+			},
 			// "variable.constant": {
-			// 	"foreground": "#8366d1"
+			// 	"foreground": "#AAF5FF"
 			// },
 			"variable.defaultLibrary": {
 				"foreground": "#E1EFFF"
@@ -1331,7 +1334,8 @@
 					"variable.other.constant"
 				],
 				"settings": {
-					"foreground": "#AAF5FF" // Shades of Purple: #9EFFFF
+					"foreground": "#d3ffa3" // Shades of Purple: #9EFFFF
+					// #AAF5FF - use this if semantic highlighting is disabled
 				}
 			},
 			{
@@ -1345,6 +1349,14 @@
 			{
 				"scope": [
 					"meta.object.member.ts variable.other.constant" // enum
+				],
+				"settings": {
+					"foreground": "#d3ffa3" // 80FFBB
+				}
+			},
+			{
+				"scope": [
+					"variable.other.constant.object.ts variable.other.constant" // enum
 				],
 				"settings": {
 					"foreground": "#d3ffa3" // 80FFBB
