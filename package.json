@@ -35,14 +35,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Electric Indigo",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Electric Indigo-color-theme.json"
-      },
-      {
         "label": "Electric Black",
         "uiTheme": "vs-dark",
         "path": "./themes/Electric Black-color-theme.json"
+      },
+      {
+        "label": "Electric Indigo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Electric Indigo-color-theme.json"
       }
     ]
   }

@@ -1509,6 +1509,25 @@
 				}
 			},
 			{
+				"name": "[PYTHON] - Numeric Float",
+				"scope": [
+					"constant.numeric.float.python",
+				],
+				"settings": {
+					"foreground": "#F7B2EC" // Shades of Purple: #FAD000
+				}
+			},
+			// {
+			// 	"name": "[PYTHON] - @",
+			// 	"scope": [
+			// 		"entity.name.function.decorator.python punctuation",
+			// 	],
+			// 	"settings": {
+			// 		"foreground": "#fe9b70" // Added
+			// 		// #d3ffa3
+			// 	}
+			// },
+			{
 				"name": "[TYPESCRIPT] - Color for Entity Name Type",
 				"scope": "source.ts entity.name.type",
 				"settings": {

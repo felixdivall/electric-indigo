@@ -1387,9 +1387,20 @@
 					"keyword.operator"
 				],
 				"settings": {
-					"foreground": "#ffaf53" // Saved: #FFAB31 // Shades of Purple: #FF9D00
+					"foreground": "#ffaf53" // Shades of Purple: #FF9D00
+			//		// #FFAB31
 				}
 			},
+			// {
+			// 	"name": "[JAVASCRIPT] — Keyword Control",
+			// 	"scope": [
+			// 		"keyword.control"
+			// 	],
+			// 	"settings": {
+			// 		"foreground": "#fe9b70" // Shades of Purple: #FF9D00
+			//		// #FFAB31
+			// 	}
+			// },
 			{
 				"name": "[JAVASCRIPT] — Docs Useless stuff",
 				"scope": "punctuation.definition.bracket.curly",
@@ -1498,7 +1509,7 @@
 				}
 			},
 			{
-				"name": "[PYTHON] - Numeric",
+				"name": "[PYTHON] - Numeric Decimal",
 				"scope": [
 					"constant.numeric.dec.python",
 				],
@@ -1506,6 +1517,25 @@
 					"foreground": "#F7B2EC" // Shades of Purple: #FAD000
 				}
 			},
+			{
+				"name": "[PYTHON] - Numeric Float",
+				"scope": [
+					"constant.numeric.float.python",
+				],
+				"settings": {
+					"foreground": "#F7B2EC" // Shades of Purple: #FAD000
+				}
+			},
+			// {
+			// 	"name": "[PYTHON] - @",
+			// 	"scope": [
+			// 		"entity.name.function.decorator.python punctuation",
+			// 	],
+			// 	"settings": {
+			// 		"foreground": "#fe9b70" // Added
+			//		// #d3ffa3 
+			// 	}
+			// },
 			{
 				"name": "[TYPESCRIPT] - Color for Entity Name Type",
 				"scope": "source.ts entity.name.type",
