@@ -283,10 +283,10 @@
 			"merge.border": "#ffffff00",
 			"merge.commonContentBackground": "#a599e981",
 			"merge.commonHeaderBackground": "#a599e981",
-			"merge.currentContentBackground": "#3ad90093",
-			"merge.currentHeaderBackground": "#3ad90093",
-			"merge.incomingContentBackground": "#ff730086",
-			"merge.incomingHeaderBackground": "#ff730086",
+			"merge.currentContentBackground": "#103c00a5", // Shades of Purple: #3ad90093
+			"merge.currentHeaderBackground": "#103c00a5", // Shades of Purple: #3ad90093
+			"merge.incomingContentBackground": "#5b1b0092", // Shades of Purple: #ff730086
+			"merge.incomingHeaderBackground": "#5b1b0092", // Shades of Purple: #ff730086
 
 			// Notification Colors.
 			"notificationCenter.border": "#1e1e3f",
