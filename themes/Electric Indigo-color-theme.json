@@ -1500,12 +1500,23 @@
 				}
 			},
 			{
-				"name": "[PYTHON] - Numeric",
+				"name": "[PYTHON] - Source",
+				"scope": [
+					"source.python",
+				],
+				"settings": {
+					"foreground": "#aeabfa" // Added
+					// #aeabfa / #E1EFFF / #FFFFFF
+				}
+			},
+			{
+				"name": "[PYTHON] - Numeric Decimal",
 				"scope": [
 					"constant.numeric.dec.python",
 				],
 				"settings": {
-					"foreground": "#F7B2EC" // Shades of Purple: #FAD000
+					"foreground": "#FFFFFF" // Added
+					// #F7B2EC
 				}
 			},
 			{
@@ -1514,7 +1525,8 @@
 					"constant.numeric.float.python",
 				],
 				"settings": {
-					"foreground": "#F7B2EC" // Shades of Purple: #FAD000
+					"foreground": "#FFFFFF" // Added
+					// #F7B2EC
 				}
 			},
 			// {
@@ -2300,7 +2312,7 @@
 			{
 				"scope": "constant.numeric.decimal",
 				"settings": {
-					"foreground": "#F7B2EC" // Added
+					"foreground": "#FFFFFF" // Added
 					// #F7B2EC / #ff8b9b
 				}
 			},
