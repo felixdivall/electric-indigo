@@ -20,6 +20,5 @@
 
 ### Changed
 
-- Numbers in JavaScript and Python are now white instead of pink
 - source.python scope is now purple instead of white
 - Overlay in merge conflict are now more transparent

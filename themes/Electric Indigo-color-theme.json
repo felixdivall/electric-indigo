@@ -1515,7 +1515,7 @@
 					"constant.numeric.dec.python",
 				],
 				"settings": {
-					"foreground": "#FFFFFF" // Added
+					"foreground": "#F7B2EC" // Added
 					// #F7B2EC
 				}
 			},
@@ -1525,7 +1525,7 @@
 					"constant.numeric.float.python",
 				],
 				"settings": {
-					"foreground": "#FFFFFF" // Added
+					"foreground": "#F7B2EC" // Added
 					// #F7B2EC
 				}
 			},
@@ -2312,7 +2312,7 @@
 			{
 				"scope": "constant.numeric.decimal",
 				"settings": {
-					"foreground": "#FFFFFF" // Added
+					"foreground": "#F7B2EC" // Added
 					// #F7B2EC / #ff8b9b
 				}
 			},

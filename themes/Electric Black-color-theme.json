@@ -36,6 +36,7 @@
 			"variable": {
 				"foreground": "#AAF5FF"
 			},
+			
 			// "variable.constant": {
 			// 	"foreground": "#8366d1"
 			// },
@@ -1350,7 +1351,8 @@
 					"meta.array.literal.ts variable.other.constant" // [enum]
 				],
 				"settings": {
-					"foreground": "#d3ffa3" // 80FFBB 
+					"foreground": "#d3ffa3"
+					// #80FFBB 
 				}
 			},
 			{
@@ -1358,7 +1360,8 @@
 					"meta.object.member.ts variable.other.constant" // enum
 				],
 				"settings": {
-					"foreground": "#d3ffa3" // 80FFBB
+					"foreground": "#d3ffa3"
+					// #80FFBB
 				}
 			},
 			{
@@ -1525,7 +1528,7 @@
 					"constant.numeric.dec.python",
 				],
 				"settings": {
-					"foreground": "#FFFFFF" // Added
+					"foreground": "#F7B2EC" // Added
 					// #F7B2EC
 				}
 			},
@@ -1535,7 +1538,7 @@
 					"constant.numeric.float.python",
 				],
 				"settings": {
-					"foreground": "#FFFFFF" // Added
+					"foreground": "#F7B2EC" // Added
 					// #F7B2EC
 				}
 			},
@@ -2322,7 +2325,7 @@
 			{
 				"scope": "constant.numeric.decimal",
 				"settings": {
-					"foreground": "#FFFFFF" // Added
+					"foreground": "#F7B2EC" // Added
 					// #F7B2EC / #ff8b9b / #E1EFFF
 				}
 			},
