@@ -41,4 +41,8 @@ to blue instead of green. Have this to either true or "configuredByTheme" as bel
 <br>
 <br>
 Created with inspiration from the one and only Ahmad Awais and his <i>Shades of Purple</i>. <br>
-But with a much softer color palette to make it last a lifetime. And a lot of other improvements/tweaks.
+But with a much softer color palette to make it last a lifetime. And a lot of other improvements/tweaks. <br>
+*See below for an example*
+### Electric Indigo and Shades of Purple comparison
+![electricindigo-vs-shadesofpurple](images/electricindigo-vs-shadesofpurple.gif)
+

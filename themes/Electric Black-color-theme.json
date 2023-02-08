@@ -954,7 +954,7 @@
 				"name": "[Meta/TS] — The main color for Numberical Decimal Meta",
 				"scope": "constant.numeric.decimal.ts meta",
 				"settings": {
-					"foreground": "#E1EFFF" // Shades of Purple: #9EFFFF
+					"foreground": "#F7B2EC" // Shades of Purple: #9EFFFF
 					// #f9c372 / #fabd60 / #CBB8FF / #d1c1fd / #c1ff7e / #d3ffa3 / #E1EFFF / #FFEE80 / #fcee95
 				}
 			},
