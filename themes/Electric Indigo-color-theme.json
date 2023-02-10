@@ -169,9 +169,9 @@
 			// Diff Editor.
 			// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_diff-editor-colors
 			"diffEditor.insertedTextBackground": "#00ff000e",
-			"diffEditor.insertedTextBorder": "#00ff009a",
+			"diffEditor.insertedTextBorder": "#00ff000e", // Shades of Purple: #00ff009a
 			"diffEditor.removedTextBackground": "#ff000d1a",
-			"diffEditor.removedTextBorder": "#ff000d81",
+			"diffEditor.removedTextBorder": "#ff000d1a", // Shades of Purple: #ff000d81
 
 			// Brackets.
 			"editorBracketHighlight.foreground1": "#ffab31", // #ffd700 / #E1EFFF									// Added
