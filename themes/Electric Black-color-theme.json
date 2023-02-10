@@ -29,6 +29,9 @@
 			"interface": {
 				"foreground": "#FFD700"
 			},
+			"interface.defaultLibrary": {
+				"foreground": "#62ffcb"
+			},
 			"*.async": {
 				"foreground": "#fe9b70"
 			},
@@ -167,10 +170,10 @@
 			"editorWarning.foreground": "#ffd700", // Shades of Purple: #FAD000
 
 			// Gutter: The gutter contains the glyph margins and the line numbers:
-			"editorGutter.background": "#15152a",
+			"editorGutter.background": "#15152a", // Shades of Purple: #15152a
 			"editorGutter.addedBackground": "#35ad68",
 			"editorGutter.deletedBackground": "#ec3a37f5",
-			"editorGutter.modifiedBackground": "#ad70fc46",
+			"editorGutter.modifiedBackground": "#ffd700c0", // Shades of Purple: #ad70fc46
 
 			// Diff Editor.
 			// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_diff-editor-colors
@@ -1393,6 +1396,15 @@
 				"settings": {
 					"foreground": "#ffaf53" // Shades of Purple: #FF9D00
 			//		// #FFAB31
+				}
+			},
+			{
+				"name": "[TYPESCRIPT] — Keyword Operator",
+				"scope": [
+					"meta.type.annotation.ts keyword.operator"
+				],
+				"settings": {
+					"foreground": "#FFFFFF" // Added
 				}
 			},
 			// {

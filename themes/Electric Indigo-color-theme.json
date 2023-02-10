@@ -29,6 +29,9 @@
 			"interface": {
 				"foreground": "#FFD700"
 			},
+			"interface.defaultLibrary": {
+				"foreground": "#62ffcb"
+			},
 			"*.async": {
 				"foreground": "#fe9b70"
 			},
@@ -164,7 +167,7 @@
 			"editorGutter.addedBackground": "#35ad68",
 			"editorGutter.background": "#28284e",
 			"editorGutter.deletedBackground": "#ec3a37f5",
-			"editorGutter.modifiedBackground": "#ad70fc46",
+			"editorGutter.modifiedBackground": "#ffd700c0", // Shades of Purple: #ad70fc46
 
 			// Diff Editor.
 			// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_diff-editor-colors
@@ -1392,6 +1395,25 @@
 					"foreground": "#ffaf53" // Saved: #FFAB31 // Shades of Purple: #FF9D00
 				}
 			},
+			{
+				"name": "[TYPESCRIPT] — Keyword Operator",
+				"scope": [
+					"meta.type.annotation.ts keyword.operator"
+				],
+				"settings": {
+					"foreground": "#FFFFFF" // Added
+				}
+			},
+			// {
+			// 	"name": "[JAVASCRIPT] — Keyword Control",
+			// 	"scope": [
+			// 		"keyword.control"
+			// 	],
+			// 	"settings": {
+			// 		"foreground": "#fe9b70" // Shades of Purple: #FF9D00
+			//		// #FFAB31
+			// 	}
+			// },
 			{
 				"name": "[JAVASCRIPT] — Docs Useless stuff",
 				"scope": "punctuation.definition.bracket.curly",

@@ -22,3 +22,10 @@
 
 - source.python scope is now purple instead of white
 - Overlay in merge conflict are now more transparent
+
+[2.3.0] - 2023-02-10
+
+### Changed
+
+- Gutter (modified) has now more contrast for better visibility
+- Changed some colors to make interfaces in TypeScript more appealing
