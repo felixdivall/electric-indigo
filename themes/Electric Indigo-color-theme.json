@@ -17,8 +17,8 @@
 				"foreground": "#FFD700"
 			},
 			"class.defaultLibrary": {
-				"foreground": "#62ffcb"
-				// #fe9b70
+				"foreground": "#70fbcd"
+				// #fe9b70 / #62ffcb / #86ffd7
 			},
 			"property.declaration": {
 				"foreground": "#FCEE95"
@@ -30,13 +30,11 @@
 				"foreground": "#FFD700"
 			},
 			"interface.defaultLibrary": {
-				"foreground": "#62ffcb"
+				"foreground": "#70fbcd"
 			},
 			"*.async": {
 				"foreground": "#fe9b70"
 			},
-
-
 			"variable": {
 				"foreground": "#AAF5FF"
 			},
@@ -397,7 +395,7 @@
 			"terminal.ansiBlue": "#6943ff",
 			"terminal.ansiBrightBlack": "#5c5c61",
 			"terminal.ansiBrightBlue": "#6943ff",
-			"terminal.ansiBrightCyan": "#80fcff", // #62FFCB
+			"terminal.ansiBrightCyan": "#80fcff", // #62ffcb 
 			"terminal.ansiBrightGreen": "#3ad900",
 			"terminal.ansiBrightMagenta": "#fb94ff",
 			"terminal.ansiBrightRed": "#ec3a37f5",
@@ -925,6 +923,7 @@
 				"scope": "constant",
 				"settings": {
 					"foreground": "#FF628C"
+					// #FF628C
 				}
 			},
 			{
@@ -941,16 +940,16 @@
 				"name": "[Meta] — The main color for Meta",
 				"scope": "meta",
 				"settings": {
-					"foreground": "#fcee95" // Shades of Purple: #9EFFFF
-					// #f9c372 / #fabd60 / #CBB8FF / #d1c1fd / #c1ff7e / #d3ffa3 / #E1EFFF / #FFEE80 / #fcee95
+					"foreground": "#fcee95" // Added
+					// #f9c372 / #fabd60 / #CBB8FF / #d1c1fd / #c1ff7e / #d3ffa3 / #E1EFFF / #FFEE80 / #fcee95 // #ffffff
 				}
 			},
 			{
 				"name": "[Meta/TS] — The main color for Numberical Decimal Meta",
 				"scope": "constant.numeric.decimal.ts meta",
 				"settings": {
-					"foreground": "#F7B2EC" // Added
-					// #f9c372 / #fabd60 / #CBB8FF / #d1c1fd / #c1ff7e / #d3ffa3 / #E1EFFF / #FFEE80 / #fcee95 / #ffffff
+					"foreground": "#F7B2EC" // Shades of Purple: #9EFFFF
+					// #f9c372 / #fabd60 / #CBB8FF / #d1c1fd / #c1ff7e / #d3ffa3 / #E1EFFF / #FFEE80 / #fcee95
 				}
 			},
 			{
@@ -1057,8 +1056,8 @@
 				"name": "[Support]",
 				"scope": "support",
 				"settings": {
-					"foreground": "#62ffcb" // Shades of Purple: #80FFBB
-					// #62ffcb / #fc7474
+					"foreground": "#70fbcd" // Shades of Purple: #80FFBB
+					// #86ffd7 / #fc7474
 				}
 			},
 			{
@@ -1285,7 +1284,7 @@
 				"name": "[JAVASCRIPT] - Color for Storage Type Function",
 				"scope": "source.js storage.type.function",
 				"settings": {
-					"foreground": "#62FFCB" // Shades of Purple: #FB94FF
+					"foreground": "#70fbcd" // Shades of Purple: #FB94FF
 				}
 			},
 			{
@@ -1346,7 +1345,8 @@
 					"meta.array.literal.ts variable.other.constant" // [enum]
 				],
 				"settings": {
-					"foreground": "#d3ffa3" // 80FFBB 
+					"foreground": "#d3ffa3"
+					// #80FFBB 
 				}
 			},
 			{
@@ -1354,15 +1354,8 @@
 					"meta.object.member.ts variable.other.constant" // enum
 				],
 				"settings": {
-					"foreground": "#d3ffa3" // 80FFBB
-				}
-			},
-			{
-				"scope": [
-					"variable.other.constant.object.ts variable.other.constant" // enum
-				],
-				"settings": {
-					"foreground": "#d3ffa3" // 80FFBB
+					"foreground": "#d3ffa3"
+					// #80FFBB
 				}
 			},
 			{
@@ -1392,7 +1385,8 @@
 					"keyword.operator"
 				],
 				"settings": {
-					"foreground": "#ffaf53" // Saved: #FFAB31 // Shades of Purple: #FF9D00
+					"foreground": "#ffaf53" // Shades of Purple: #FF9D00
+			//		// #FFAB31
 				}
 			},
 			{
@@ -1457,23 +1451,34 @@
 				"scope": [
 					"entity.name.type.class.tsx",
 					"entity.name.type.class.jsx",
-					"variable.other.readwrite.alias.tsx",
+					// "variable.other.readwrite.alias.tsx",
 					"variable.other.readwrite.tsx",
-					"variable.other.readwrite.alias.ts",
+					// "variable.other.readwrite.alias.ts",
 					"variable.other.readwrite.alias.jsx",
 					"variable.other.readwrite.alias.js",
-					"variable.other.object.tsx",
-					"variable.other.object.jsx",
-					"variable.other.object",
+					// "variable.other.object.tsx",
+					// "variable.other.object.jsx",
+					// "variable.other.object",
+					// "variable.other.object.js"
 					"support.class.component.tsx",
 					"support.class.component.jsx",
 					"entity.name.type.tsx",
 					"entity.name.type.jsx",
-					"variable.other.readwrite",
-					"variable.other.object.js"
+					"variable.other.readwrite"
 				],
 				"settings": {
 					"foreground": "#AAF5FF" // Shades of Purple: #9EFFFF
+				}
+			},
+			{
+				"name": "[TYPESCRIPT] - imports",
+				"scope": [
+					"variable.other.readwrite.alias.tsx",
+					"variable.other.readwrite.alias.ts",
+				],
+				"settings": {
+					"foreground": "#caf4f9" // Added
+					// #AAF5FF
 				}
 			},
 			{
@@ -1483,8 +1488,8 @@
 					"variable.other.object.property"
 				],
 				"settings": {
-					"foreground": "#FFEE80" // Shades of Purple: #FFEE80
-					// #AAF5FF
+					"foreground": "#D3FFA3" // Shades of Purple: #FFEE80
+					// #AAF5FF / #FFEE80
 				}
 			},
 			{
@@ -1527,7 +1532,7 @@
 					"source.python",
 				],
 				"settings": {
-					"foreground": "#aeabfa" // Added
+					"foreground": "#a9a6f5" // Added
 					// #aeabfa / #E1EFFF / #FFFFFF
 				}
 			},
@@ -1558,14 +1563,35 @@
 			// 	],
 			// 	"settings": {
 			// 		"foreground": "#fe9b70" // Added
-			// 		// #d3ffa3
+			//		// #d3ffa3 
 			// 	}
 			// },
 			{
 				"name": "[TYPESCRIPT] - Color for Entity Name Type",
 				"scope": "source.ts entity.name.type",
 				"settings": {
-					"foreground": "#80FFBB"
+					"foreground": "#caf4f9" // Added
+					// #80ffbb
+				}
+			},
+			{
+				"name": "[TYPESCRIPT] - Variable Other Object",
+				"scope": [
+					"variable.other.object.tsx",
+					"variable.other.object.jsx",
+					"variable.other.object",
+					"variable.other.object.js"
+			],
+				"settings": {
+					"foreground": "#caf4f9" // Added
+					// #80ffbb / #f5d388 / #f99ecf / #E1EFFF / #beea96 / #abe6fa / #c7f9ff
+				}
+			},
+			{
+				"name": "[TYPESCRIPT] - NetSuite - <search>.createColumn",
+				"scope": "meta.objectliteral.ts variable.other.object",
+				"settings": {
+					"foreground": "#CAF4F9" // Added
 				}
 			},
 			{
@@ -1573,6 +1599,7 @@
 				"scope": "source.ts keyword",
 				"settings": {
 					"foreground": "#FFD700" // Shades of Purple: #FAD000
+					// #ffd500
 				}
 			},
 			{
@@ -1948,7 +1975,7 @@
 					"meta.function.parameters.php"
 				],
 				"settings": {
-					"foreground": "#62FFCB" // // Shades of Purple: #FB94FF
+					"foreground": "#70fbcd" // // Shades of Purple: #FB94FF
 				}
 			},
 			{
@@ -1996,7 +2023,7 @@
 					"keyword.function.go"
 				],
 				"settings": {
-					"foreground": "#62FFCB" // Shades of Purple: #FB94FF
+					"foreground": "#70fbcd" // Shades of Purple: #FB94FF
 				}
 			},
 			{
@@ -2042,7 +2069,7 @@
 				"name": "[RUBY] - Class",
 				"scope": "entity.name.type.class.ruby",
 				"settings": {
-					"foreground": "#62FFCB"  // Shades of Purple: #FB94FF
+					"foreground": "#70fbcd"  // Shades of Purple: #FB94FF
 				}
 			},
 			{
@@ -2075,7 +2102,7 @@
 					"storage.type.function.shell"
 				],
 				"settings": {
-					"foreground": "#62FFCB" // Shades of Purple: #FB94FF
+					"foreground": "#70fbcd" // Shades of Purple: #FB94FF
 				}
 			},
 			{
@@ -2103,7 +2130,7 @@
 					"keyword.operation.graphql"
 				],
 				"settings": {
-					"foreground": "#62FFCB" // Shades of Purple: #FB94FF
+					"foreground": "#70fbcd" // Shades of Purple: #FB94FF
 				}
 			},
 			{
@@ -2206,7 +2233,7 @@
 					"keyword.other.fn.rust"
 				],
 				"settings": {
-					"foreground": "#62FFCB" // Shades of Purple: #FB94FF
+					"foreground": "#70fbcd" // Shades of Purple: #FB94FF
 				}
 			},
 			{
@@ -2262,7 +2289,7 @@
 					"string.regexp.js"
 				],
 				"settings": {
-					"foreground": "#62FFCB" // Shades of Purple: #FB94FF
+					"foreground": "#70fbcd" // Shades of Purple: #FB94FF
 				}
 			},
 			{
@@ -2335,7 +2362,7 @@
 				"scope": "constant.numeric.decimal",
 				"settings": {
 					"foreground": "#F7B2EC" // Added
-					// #F7B2EC / #ff8b9b
+					// #F7B2EC / #ff8b9b / #E1EFFF
 				}
 			},
 			{
