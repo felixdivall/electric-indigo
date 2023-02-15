@@ -36,3 +36,9 @@
 
 - Made it even better for NetSuite developers; Modules no longer share the same shade of blue as variables
 - Few other tweaks as well for TypeScript
+
+## [3.0.0] - 2023-02-15
+
+### Changed
+
+- HTML & CSS has been given a complete makeover
