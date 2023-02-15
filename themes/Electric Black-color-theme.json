@@ -1287,11 +1287,12 @@
 						"meta.attribute.name.html string",
 						"meta.attribute.content.html string",
 						"meta.attribute.http-equiv.html string",
+						"meta.attribute.rel.html string",
 						"punctuation.definition.string.begin",
 						"punctuation.definition.string.end"
 				],
 				"settings": {
-					"foreground": "#6DDB80"
+					"foreground": "#A5FF90"
 					// #aaf5ff
 				}
 			},
