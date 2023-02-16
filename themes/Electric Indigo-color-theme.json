@@ -1259,13 +1259,6 @@
 				}
 			},
 			{
-				"name": "[HTML] - Color for ID value",
-				"scope": "meta.toc-list.id.html",
-				"settings": {
-					"foreground": "#A5FF90"
-				}
-			},
-			{
 				"name": "[HTML] - Color for href",
 				"scope": "meta.attribute.href.html string",
 				"settings": {
@@ -1285,8 +1278,15 @@
 						"punctuation.definition.string.end"
 				],
 				"settings": {
-					"foreground": "#A5FF90"
+					"foreground": "#95EE81"
 					// #aaf5ff
+				}
+			},
+			{
+				"name": "[HTML] - Color for ID value",
+				"scope": "meta.toc-list.id.html",
+				"settings": {
+					"foreground": "#b8fb71"
 				}
 			},
 			{
