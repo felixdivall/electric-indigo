@@ -353,21 +353,21 @@
 
 			// New Settings Editor.
 			// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_settings-editor-colors
-			"settings.checkboxBackground": "#15152b",
-			"settings.checkboxBorder": "#15152b",
-			"settings.checkboxForeground": "#e5e4fb",
-			"settings.dropdownBackground": "#15152b",
-			"settings.dropdownBorder": "#15152b",
-			"settings.dropdownForeground": "#e5e4fb",
-			"settings.dropdownListBorder": "#191830",
-			"settings.headerForeground": "#ffffff",
-			"settings.modifiedItemIndicator": "#ffd700",
-			"settings.numberInputBackground": "#15152b",
-			"settings.numberInputBorder": "#15152b",
-			"settings.numberInputForeground": "#e5e4fb",
-			"settings.textInputBackground": "#15152b",
-			"settings.textInputBorder": "#15152b",
-			"settings.textInputForeground": "#e5e4fb",
+			"settings.checkboxBackground": "#A599E966", 	// #15152b
+			"settings.checkboxBorder": "#15152b", 			// #15152b
+			"settings.checkboxForeground": "#e5e4fb", 		// #e5e4fb
+			"settings.dropdownBackground": "#373457", 		// #15152b
+			"settings.dropdownBorder": "#15152b", 			// #15152b
+			"settings.dropdownForeground": "#e5e4fb", 		// #e5e4fb
+			"settings.dropdownListBorder": "#191830", 		// #191830
+			"settings.headerForeground": "#ffffff", 		// #ffffff
+			"settings.modifiedItemIndicator": "#ffd700", 	// #ffd700
+			"settings.numberInputBackground": "#373457", 	// #15152b
+			"settings.numberInputBorder": "#15152b", 		// #15152b
+			"settings.numberInputForeground": "#e5e4fb", 	// #e5e4fb
+			"settings.textInputBackground": "#373457", 	// #15152b
+			"settings.textInputBorder": "#15152b", 		// #15152b
+			"settings.textInputForeground": "#e5e4fb", 	// #e5e4fb
 
 			// Sidebar.
 			// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
