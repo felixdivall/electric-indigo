@@ -42,3 +42,9 @@
 ### Changed
 
 - HTML & CSS has been given a complete makeover
+
+## [3.1.0] - 2023-02-15
+
+### Changed
+
+- More updates to HTML & CSS

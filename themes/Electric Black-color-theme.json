@@ -1142,7 +1142,7 @@
 				"name": "[CSS] - Color for Class Selector",
 				"scope": "entity.other.attribute-name.class.css",
 				"settings": {
-					"foreground": "#FFB454"
+					"foreground": "#CAF4F9"
 				}
 			},
 			{
@@ -1152,15 +1152,16 @@
 					"entity.other.attribute-name.pseudo-class.css"
 				],
 				"settings": {
-					"foreground": "#FFB454"
-					// #FFAB31
+					"foreground": "#b8fb71"
+					// #FFAB31 / #AAF5FF / #b8fb71
 				}
 			},
 			{
 				"name": "[CSS] - Color for Element Selector",
 				"scope": "entity.name.tag.css",
 				"settings": {
-					"foreground": "#AAF5FF"
+					"foreground": "#FFAB31"
+					// #AAF5FF
 				}
 			},
 			{
@@ -1171,7 +1172,7 @@
 					"source.stylus support"
 				],
 				"settings": {
-					"foreground": "#A5FF90"
+					"foreground": "#FFEE80"
 					// #A5FF90
 				}
 			},
@@ -1181,7 +1182,37 @@
 					"source.css meta",
 				],
 				"settings": {
-					"foreground": "#FFEE80"
+					"foreground": "#6DDB80"
+					// #A5FF90
+				}
+			},
+			{
+				"name": "[CSS] - :<>",
+				"scope": [
+					"entity.other.attribute-name.pseudo-class.css",
+				],
+				"settings": {
+					"foreground": "#FFD700"
+					// #A5FF90
+				}
+			},
+			{
+				"name": "[CSS] - ::<>",
+				"scope": [
+					"entity.other.attribute-name",
+				],
+				"settings": {
+					"foreground": "#fee13e"
+					// #A5FF90
+				}
+			},
+			{
+				"name": "[CSS] - Support Function",
+				"scope": [
+					"support.function",
+				],
+				"settings": {
+					"foreground": "#D3FFA3"
 					// #A5FF90
 				}
 			},
@@ -1191,7 +1222,7 @@
 					"source.css keyword.control",
 				],
 				"settings": {
-					"foreground": "#A5FF90"
+					"foreground": "#FFEE80"
 					// #A5FF90
 				}
 			},
@@ -1206,7 +1237,7 @@
 					"source.stylus support.constant"
 				],
 				"settings": {
-					"foreground": "#FFEE80"
+					"foreground": "#6DDB80"
 					// #FFEE80
 				}
 			},
@@ -1219,7 +1250,8 @@
 					"source.stylus punctuation.definition.string"
 				],
 				"settings": {
-					"foreground": "#A5FF90"
+					"foreground": "#FFEE80"
+					// #A5FF90
 				}
 			},
 			{
@@ -1240,8 +1272,8 @@
 					"entity.name.tag.inline.any.html",
 					"meta.tag.other.html",
 					"meta.tag.inline.any.html",
-					"punctuation.definition.tag.begin.html",
-					"punctuation.definition.tag.end.html",
+					// "punctuation.definition.tag.begin.html",
+					// "punctuation.definition.tag.end.html",
 					"entity.name.tag",
 					"meta.tag.other.html",
 					"meta.tag.other.js",
@@ -1259,6 +1291,16 @@
 				}
 			},
 			{
+				"name": "[HTML] - HTML Tag End & Begin",
+				"scope": [
+					"punctuation.definition.tag.begin.html",
+					"punctuation.definition.tag.end.html"
+				],
+				"settings": {
+					"foreground": "#ffab31"
+				}
+			},
+			{
 				"name": "[HTML] - Color for Attribute",
 				"scope": "entity.other.attribute-name.html",
 				"settings": {
@@ -1266,10 +1308,14 @@
 				}
 			},
 			{
-				"name": "[HTML] - Color for href",
-				"scope": "meta.attribute.href.html string",
+				"name": "[HTML] - Color for Links",
+				"scope": [
+					"meta.attribute.src.html string",
+					"meta.attribute.href.html string"
+				],
 				"settings": {
 					"foreground": "#FFD700"
+					// #FFD700
 				}
 			},
 			{
@@ -1285,7 +1331,7 @@
 						"punctuation.definition.string.end"
 				],
 				"settings": {
-					"foreground": "#95EE81"
+					"foreground": "#6DDB80"
 					// #aaf5ff
 				}
 			},
@@ -1318,7 +1364,7 @@
 						"meta.attribute.id.html entity.other.attribute-name.html"
 				],
 				"settings": {
-					"foreground": "#AAF5FF"
+					"foreground": "#FFEE80"
 					// #aaf5ff
 				}
 			},
