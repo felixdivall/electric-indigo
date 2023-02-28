@@ -395,7 +395,7 @@
 			"terminal.ansiBlue": "#6943ff",
 			"terminal.ansiBrightBlack": "#5c5c61",
 			"terminal.ansiBrightBlue": "#6943ff",
-			"terminal.ansiBrightCyan": "#80fcff", // #62ffcb 
+			"terminal.ansiBrightCyan": "#62ffcb", // #62ffcb / #80fcff
 			"terminal.ansiBrightGreen": "#3ad900",
 			"terminal.ansiBrightMagenta": "#fb94ff",
 			"terminal.ansiBrightRed": "#ec3a37f5",
@@ -1135,7 +1135,8 @@
 				"name": "[CSS] - Color for Class Selector",
 				"scope": "entity.other.attribute-name.class.css",
 				"settings": {
-					"foreground": "#CAF4F9"
+					"foreground": "#70FBCD"
+					// #CAF4F9
 				}
 			},
 			{
@@ -1145,7 +1146,7 @@
 					"entity.other.attribute-name.pseudo-class.css"
 				],
 				"settings": {
-					"foreground": "#b8fb71"
+					"foreground": "#AAF5FF"
 					// #FFAB31 / #AAF5FF / #b8fb71
 				}
 			},
@@ -1165,8 +1166,8 @@
 					"source.stylus support"
 				],
 				"settings": {
-					"foreground": "#FFEE80"
-					// #A5FF90
+					"foreground": "#D3FFA3"
+					// #A5FF90 / #FFEE80
 				}
 			},
 			{
@@ -1205,8 +1206,8 @@
 					"support.function",
 				],
 				"settings": {
-					"foreground": "#D3FFA3"
-					// #A5FF90
+					"foreground": "#FFEE80"
+					// #A5FF90 / #D3FFA3
 				}
 			},
 			{
@@ -1215,8 +1216,8 @@
 					"source.css keyword.control",
 				],
 				"settings": {
-					"foreground": "#FFEE80"
-					// #A5FF90
+					"foreground": "#D3FFA3"
+					// #A5FF90 / #FFEE80
 				}
 			},
 			{
@@ -1235,6 +1236,16 @@
 				}
 			},
 			{
+				"name": "[CSS] - Color for Unit",
+				"scope": [
+					"keyword.other.unit"
+				],
+				"settings": {
+					"foreground": "#E1EFFF"
+					// #FFEE80 / #E1EFFF / #D3FFA3
+				}
+			},
+			{
 				"name": "[CSS] - Color for String",
 				"scope": [
 					"source.css string",
@@ -1243,8 +1254,8 @@
 					"source.stylus punctuation.definition.string"
 				],
 				"settings": {
-					"foreground": "#FFEE80"
-					// #A5FF90
+					"foreground": "#D3FFA3"
+					// #A5FF90 / #FFEE80
 				}
 			},
 			{
