@@ -1315,7 +1315,19 @@
 				"name": "[HTML] - Color for Attribute",
 				"scope": "entity.other.attribute-name.html",
 				"settings": {
-					"foreground": "#FFEE80"
+					"foreground": "#D3FFA3"
+					// #FFEE80 / #D3FFA3
+				}
+			},
+			{
+				"name": "[HTML] - Color for Class & ID Attribute Name",
+				"scope": [
+						"meta.attribute.class.html entity.other.attribute-name.html",
+						"meta.attribute.id.html entity.other.attribute-name.html"
+				],
+				"settings": {
+					"foreground": "#D3FFA3"
+					// #aaf5ff / #FFEE80 / #D3FFA3
 				}
 			},
 			{
@@ -1343,14 +1355,22 @@
 				],
 				"settings": {
 					"foreground": "#6DDB80"
-					// #aaf5ff
+					// #aaf5ff / #6DDB80
+				}
+			},
+			{
+				"name": "[HTML] - Quotes. Different color to handle expanded selection",
+				"scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
+				"settings": {
+					"foreground": "#92FC79"
 				}
 			},
 			{
 				"name": "[HTML] - Color for ID value",
 				"scope": "meta.toc-list.id.html",
 				"settings": {
-					"foreground": "#b8fb71"
+					"foreground": "#6DDB80"
+					// #b8fb71
 				}
 			},
 			{
@@ -1365,18 +1385,7 @@
 				],
 				"settings": {
 					"foreground": "#b8fb71"
-					// #aaf5ff
-				}
-			},
-			{
-				"name": "[HTML] - Color for Class & ID Attribute Name",
-				"scope": [
-						"meta.attribute.class.html entity.other.attribute-name.html",
-						"meta.attribute.id.html entity.other.attribute-name.html"
-				],
-				"settings": {
-					"foreground": "#FFEE80"
-					// #aaf5ff
+					// #aaf5ff / #b8fb71 / #A5FF90
 				}
 			},
 			// {
@@ -1398,13 +1407,6 @@
 				"scope": "meta.tag.metadata.script.html entity.name.tag.html",
 				"settings": {
 					"foreground": "#FFD700"
-				}
-			},
-			{
-				"name": "[HTML] - Quotes. Different color to handle expanded selection",
-				"scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
-				"settings": {
-					"foreground": "#92FC79"
 				}
 			},
 			{
