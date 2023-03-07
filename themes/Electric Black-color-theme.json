@@ -16,6 +16,9 @@
 			"property": {
 				"foreground": "#FFD700"
 			},
+			"function.defaultLibrary": {
+				"foreground": "#70fbcd"
+			},
 			"class.defaultLibrary": {
 				"foreground": "#70fbcd"
 				// #fe9b70 / #62ffcb / #86ffd7
@@ -427,13 +430,13 @@
 
 			// Text Colors — Colors inside a text document, such as the welcome page.
 			// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_text-colors
-			"textBlockQuote.background": "#15152b",
+			"textBlockQuote.background": "#15152b", // #15152b
 			"textBlockQuote.border": "#6943FF",
-			"textCodeBlock.background": "#15152b",
+			"textCodeBlock.background": "#15152b", // #15152b
 			"textLink.activeForeground": "#ffd700",
 			"textLink.foreground": "#ffd700",
 			"textPreformat.foreground": "#ffd700",
-			"textSeparator.foreground": "#15152b",
+			"textSeparator.foreground": "#15152b", // #15152b
 
 			// Title bar.
 			// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_title-bar-colors
@@ -1940,7 +1943,7 @@
 				}
 			},
 			{
-				"name": "[MARKDOWN] - Color for Punctuation — Heading, `Code` and fenced ```code blocks```, **Bold**",
+				"name": "[MARKDOWN] - Color for Punctuation — Heading, `Code` and fenced ```code blocks```, **Bold** and _Italic_",
 				"scope": [
 					"punctuation.definition.markdown",
 					"punctuation.definition.raw.markdown",
@@ -1949,9 +1952,19 @@
 					"punctuation.definition.italic.markdown"
 				],
 				"settings": {
-					"foreground": "#494685"
+					"foreground": "#a599e990" // #494685
 				}
 			},
+			// {
+			// 	"name": "[MARKDOWN] - Color for Punctuation — `Code` and fenced ```code blocks```",
+			// 	"scope": [
+			// 		"punctuation.definition.markdown",
+			// 		"punctuation.definition.raw.markdown",
+			// 	],
+			// 	"settings": {
+			// 		"foreground": "#494685"
+			// 	}
+			// },
 			{
 				"name": "[MARKDOWN] - LINK Brackets",
 				"scope": [
