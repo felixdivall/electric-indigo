@@ -451,6 +451,7 @@
 
 			// Customizable menu.
 			"menu.separatorBackground": "#a599e9",
+			"menu.selectionBackground": "#7870ab",
 
 			// Tab stops.
 			"editor.snippetFinalTabstopHighlightBackground": "#6943ff62",
@@ -673,7 +674,6 @@
 			//"listFilterWidget.shadow": "#00000026",
 			//"menu.background": "#15152b",
 			//"menu.foreground": "#ffffff",
-			//"menu.selectionBackground": "#2d2b55",
 			//"menu.selectionForeground": "#ffffff",
 			//"menubar.selectionBackground": "#5a5d5e50",
 			//"menubar.selectionForeground": "#ffffff",
