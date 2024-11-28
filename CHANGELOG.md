@@ -48,3 +48,9 @@
 ### Changed
 
 - More updates to HTML & CSS
+
+## [3.1.5] - 2024-11-27
+
+### Changed
+
+- PR: Increased selected menu item contrast with background for Electric Black
