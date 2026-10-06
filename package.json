@@ -2,12 +2,12 @@
   "name": "electric-indigo",
   "displayName": "Electric Noctis",
   "description": "Two vibrant dark themes, Electric Noctis and Electric Indigo, with a soft palette and high-contrast syntax highlighting.",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "publisher": "felixdivall",
   "engines": {
     "vscode": "^1.74.0"
   },
-  "icon": "images/icon/logo.png",
+  "icon": "images/icon/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/felixdivall/electric-indigo"

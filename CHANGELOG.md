@@ -62,3 +62,9 @@
 - Renamed Electric Black to Electric Noctis
 - Electric Noctis is now the main theme. It is listed first and recommended in the README.
   Users with `"workbench.colorTheme": "Electric Black"` need to switch to `"Electric Noctis"`.
+
+## [4.0.1] - 2026-10-06
+
+### Changed
+
+- New extension icon: a gold lightning bolt on a night-indigo background, matching Electric Noctis
