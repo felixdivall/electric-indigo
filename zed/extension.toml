@@ -1,0 +1,7 @@
+id = "electric-noctis-theme"
+name = "Electric Noctis"
+version = "1.0.0"
+schema_version = 1
+authors = ["Felix Divall"]
+description = "Vibrant dark theme with a soft palette and high-contrast syntax highlighting."
+repository = "https://github.com/felixdivall/electric-indigo"

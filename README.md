@@ -1,8 +1,8 @@
-# Electric Indigo
+# Electric Noctis
 
 *Let your code come to life with vibrant colors and awesome contrast.*
 
-Electric Indigo is a pair of dark VS Code themes with a soft, vibrant palette and high-contrast syntax highlighting. They look great without sacrificing readability.
+Electric Noctis is a pair of dark VS Code themes with a soft, vibrant palette and high-contrast syntax highlighting. They look great without sacrificing readability.
 
 > *Nothing is invented and perfected at the same time.*
 > Feedback is very welcome. Open an issue, or just reach out and you might have a new friend!
