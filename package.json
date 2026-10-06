@@ -1,8 +1,8 @@
 {
   "name": "electric-indigo",
-  "displayName": "Electric Indigo",
-  "description": "Shades of Purple on steroids.",
-  "version": "3.1.5",
+  "displayName": "Electric Noctis",
+  "description": "Two vibrant dark themes, Electric Noctis and Electric Indigo, with a soft palette and high-contrast syntax highlighting.",
+  "version": "4.0.0",
   "publisher": "felixdivall",
   "engines": {
     "vscode": "^1.74.0"
@@ -14,18 +14,19 @@
   },
   "keywords": [
     "theme",
+    "dark",
     "dark theme",
+    "color theme",
+    "purple",
     "purple theme",
-    "electric banana",
-    "vs code poweruser",
-    "developers guide to the galaxy",
-    "sweet potato pineapple",
-    "felix divall",
-    "divall",
-    "shades of purple",
-    "suitespot",
-    "purple sun",
-    "dreamscape"
+    "indigo",
+    "electric indigo",
+    "electric noctis",
+    "noctis",
+    "electric black",
+    "high contrast",
+    "semantic highlighting",
+    "shades of purple"
   ],
   "categories": [
     "Themes"
@@ -37,9 +38,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Electric Black",
+        "label": "Electric Noctis",
         "uiTheme": "vs-dark",
-        "path": "./themes/Electric Black-color-theme.json"
+        "path": "./themes/Electric Noctis-color-theme.json"
       },
       {
         "label": "Electric Indigo",

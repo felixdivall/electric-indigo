@@ -1,50 +1,81 @@
 # Electric Indigo
 
-*Let your code come to life with vibrant colors and awesome contrast.*<br>
-This theme offers great aesthetics while not sacrificing any functionality. 
-<br>
-> <i>Nothing is invented and perfected at the same time</i>. <br>
-> Please provide your feedback, it'll be much appreciated - or just reach out and you might have a new friend!
-<br>
+*Let your code come to life with vibrant colors and awesome contrast.*
 
-I'll be adding better/more snapshots. But here are the two different themes.
+Electric Indigo is a pair of dark VS Code themes with a soft, vibrant palette and high-contrast syntax highlighting. They look great without sacrificing readability.
 
-### Electric Black - JavaScript
-![js-b-snapshot](images/javascript-black.png)
-### Electric Indigo - JavaScript
-![js-i-snapshot](images/javascript-indigo.png)
+> *Nothing is invented and perfected at the same time.*
+> Feedback is very welcome. Open an issue, or just reach out and you might have a new friend!
 
+## Themes
 
-```json
-// Theme Setup. Pick one of the "workbench.colorTheme"
-"workbench.colorTheme": "Electric Indigo",
-// "workbench.colorTheme": "Electric Black",
-"editor.fontFamily": "Menlo, Operator Mono, Monaco, 'Courier New', monospace",
-/* Currently this theme only looks like it should by letting semanticHighlighting be set to true.
-I will try and see if this can be changed: But as it look, this setting is needed to keep the 
-correct colorazation for enums as it in some cases would be classified as a variable and be set
-to blue instead of green. Have this to either true or "configuredByTheme" as below. */
-"editor.semanticHighlighting.enabled": "configuredByTheme",
-// Formatting Optional.
-"editor.formatOnSave": true,
-"prettier.eslintIntegration": true,
-"eslint.run": "onType",
-"editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+### Electric Noctis
+
+The main theme (formerly *Electric Black*): electric accents on a deep midnight background (`#191830`).
+
+![Electric Noctis – JavaScript](images/javascript-noctis.png)
+
+### Electric Indigo
+
+The original: the same palette on a lighter, richer indigo background (`#282649`).
+
+![Electric Indigo – JavaScript](images/javascript-indigo.png)
+
+## Installation
+
+**From VS Code**
+
+1. Open the Extensions view (`⇧⌘X` / `Ctrl+Shift+X`).
+2. Search for **Electric Indigo** and click **Install**.
+3. Open the Command Palette (`⇧⌘P` / `Ctrl+Shift+P`), run **Preferences: Color Theme**, and pick **Electric Noctis** or **Electric Indigo**.
+
+**From the command line**
+
+```sh
+code --install-extension felixdivall.electric-indigo
+```
+
+Or get it from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=felixdivall.electric-indigo).
+
+## Recommended settings
+
+Add these to your `settings.json`:
+
+```jsonc
+{
+  // Pick one
+  "workbench.colorTheme": "Electric Noctis",
+  // "workbench.colorTheme": "Electric Indigo",
+
+  "editor.fontFamily": "Menlo, 'Operator Mono', Monaco, 'Courier New', monospace",
+
+  // Both themes use semantic highlighting so that enums, enum members and
+  // similar tokens get their own color instead of the generic variable blue.
+  // "configuredByTheme" (the default) or true both work. Don't set it to false.
+  "editor.semanticHighlighting.enabled": "configuredByTheme"
 }
 ```
 
+> **Upgrading from Electric Black?** The theme has been renamed. Change
+> `"workbench.colorTheme": "Electric Black"` to `"Electric Noctis"`.
+
 ## Features
-- Visually soothing color scheme with a soft and vibrant color palette
-- High contrast syntax highlighting
-- Supports multiple programming languages
-<br>
-<br>
 
-## Shoutout
-Created with inspiration from the one and only Ahmad Awais and his <i>Shades of Purple</i>. <br>
-But with a much softer color palette to make it last a lifetime. And a lot of other improvements/tweaks. <br>
-*See below for an example*
-### Electric Indigo and Shades of Purple comparison
-![electricindigo-vs-shadesofpurple](images/electricindigo-vs-shadesofpurple.gif)
+- Soft, vibrant color palette that's easy on the eyes during long sessions
+- High-contrast syntax highlighting
+- Tuned for JavaScript, TypeScript, HTML, CSS, Python, Ruby, C#, Markdown and more
+- Semantic highlighting support for richer, more accurate colors
 
+## Inspiration
+
+Created with inspiration from the one and only Ahmad Awais and his *Shades of Purple*, but with a much softer palette made to last a lifetime, plus a lot of other improvements and tweaks.
+
+![Electric Indigo vs. Shades of Purple](images/electricindigo-vs-shadesofpurple.gif)
+
+## Contributing
+
+Spotted a token that looks off, or a language that could use some love? [Open an issue or a pull request](https://github.com/felixdivall/electric-indigo).
+
+## License
+
+[MIT](LICENSE.md) © Felix Divall

@@ -1,7 +1,7 @@
 {
 	// Theme Color reference.
 	// https://code.visualstudio.com/docs/getstarted/theme-color-reference
-	"name": "Electric Black",
+	"name": "Electric Noctis",
 		"$schema": "vscode://schemas/color-theme",
 		"type": "dark",
 		"semanticHighlighting": true,
@@ -199,7 +199,7 @@
 			// // "editorBracketHighlight.foreground5": "#fe9b70", // #e6cc80 / #dda3ff / #fe9b70 					 // Added
 			// // "editorBracketHighlight.foreground6": "#E1EFFF", // #9d9d9d 										 // Added
 			// "editorBracketHighlight.unexpectedBracket.foreground": "#db6165", 									 // Added
-			
+
 			// Editor Groups & Tabs.
 			// "editorGroup.background": "#EC3A37F5", // Deprecated
 			"editorGroup.border": "#131327",
@@ -209,7 +209,7 @@
 			"editorGroupHeader.noTabsBackground": "#191830",
 			"editorGroupHeader.tabsBackground": "#1a1a35",
 			"editorGroupHeader.tabsBorder": "#1F1F41",
-			
+
 			// The tabs
 			"tab.activeBackground": "#131327",
 			"tab.activeForeground": "#FFFFFF",
@@ -247,7 +247,7 @@
 			"editorMarkerNavigation.background": "#3B536433",
 			"editorMarkerNavigationError.background": "#ec3a37f5",
 			"editorMarkerNavigationWarning.background": "#ffd700",
-			
+
 			// To see the editor white spaces, enable Toggle Render Whitespace.
 			"editorWhitespace.foreground": "#ffffff1a",
 			"errorForeground": "#ec3a37f5",
@@ -346,7 +346,7 @@
 			"scrollbarSlider.activeBackground": "#ffd700",
 			"scrollbarSlider.background": "#a599e981",
 			"scrollbarSlider.hoverBackground": "#4d21fc",
-			
+
 			// Breadcrumbs.
 			// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_breadcrumbs
 			"breadcrumb.activeSelectionForeground": "#ffffff",
@@ -1036,7 +1036,7 @@
 				}
 			},
 			{
-				
+
 				"scope": "string.template",
 				"settings": {
 					"foreground": "#6DDB80"
@@ -1505,7 +1505,7 @@
 				],
 				"settings": {
 					"foreground": "#d3ffa3"
-					// #80FFBB 
+					// #80FFBB
 				}
 			},
 			{
@@ -1722,7 +1722,7 @@
 			// 	],
 			// 	"settings": {
 			// 		"foreground": "#fe9b70" // Added
-			//		// #d3ffa3 
+			//		// #d3ffa3
 			// 	}
 			// },
 			{
@@ -2238,7 +2238,7 @@
 				"name": "[RUBY] - Class",
 				"scope": "entity.name.type.class.ruby",
 				"settings": {
-					"foreground": "#70fbcd" 
+					"foreground": "#70fbcd"
 				}
 			},
 			{
@@ -2255,7 +2255,7 @@
 				"name": "[RUBY] - Separators",
 				"scope": "punctuation.separator.other.ruby",
 				"settings": {
-					"foreground": "#FFAB31" 
+					"foreground": "#FFAB31"
 				}
 			},
 			{
@@ -2375,7 +2375,7 @@
 					"keyword.key.toml"
 				],
 				"settings": {
-					"foreground": "#FFD700" 
+					"foreground": "#FFD700"
 				}
 			},
 			{
@@ -2384,7 +2384,7 @@
 					"keyword.other.special-method.dockerfile"
 				],
 				"settings": {
-					"foreground": "#FFD700" 
+					"foreground": "#FFD700"
 				}
 			},
 			{
@@ -2411,7 +2411,7 @@
 					"keyword.other.env"
 				],
 				"settings": {
-					"foreground": "#FFAB31" 
+					"foreground": "#FFAB31"
 				}
 			},
 			{
@@ -2559,7 +2559,7 @@
 			{
 				"scope": "meta.object-literal.key.js",
 				"settings": {
-					"foreground": "#FCEE95" 
+					"foreground": "#FCEE95"
 					// #D6FA81
 				}
 			},

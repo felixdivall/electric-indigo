@@ -54,3 +54,11 @@
 ### Changed
 
 - PR: Increased selected menu item contrast with background for Electric Black
+
+## [4.0.0] - 2026-10-06
+
+### Changed
+
+- Renamed Electric Black to Electric Noctis
+- Electric Noctis is now the main theme. It is listed first and recommended in the README.
+  Users with `"workbench.colorTheme": "Electric Black"` need to switch to `"Electric Noctis"`.
